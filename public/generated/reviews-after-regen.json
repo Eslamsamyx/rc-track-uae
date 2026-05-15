@@ -1,0 +1,35 @@
+{
+  "regeneratedAt": "2026-05-15T14:03:36.620Z",
+  "results": [
+    {
+      "id": "hero-home",
+      "before": 6,
+      "after": 3,
+      "verdict": "The photograph demonstrates excellent technical quality, capturing a dynamic RC racing scene at golden hour with a beautiful Dubai skyline backdrop. The track's realism, the composition, and the general atmosphere align well with the brief's premium feel. However, the image fundamentally fails on the explicit instruction to include NO text, NO logos, and NO brand names, which are prominently displayed on the RC car liveries and track barriers. The application of Racing Blue for 'deep architectural surfaces' is also not met, with the color primarily appearing in a lighter shade on car liveries and checkered curbs. While the presence of diverse UAE residents and motion blur on one car are positive, these critical deviations make the image unsuitable for the requested brand context."
+    },
+    {
+      "id": "hero-contact",
+      "before": 5,
+      "after": 7,
+      "verdict": "The image successfully captures a warm, professional, and modern RC racing environment in the UAE, largely adhering to the specified color palette and detailed track elements. The staff and setting align well with the demographic and ambiance requested. However, the presence of visible logos on the staff's polo shirts is a direct violation of the strict 'NO text, NO logos, NO brand names' guideline, which is a significant brand constraint."
+    },
+    {
+      "id": "much-more-vise",
+      "before": 6,
+      "after": 7,
+      "verdict": "A strong studio product photograph that adheres well to brand colors and technical quality, but deviates on key compositional elements. The lighting and product focus are excellent, and the car's branding is appropriately handled."
+    },
+    {
+      "id": "tamiya-tt02",
+      "before": 6,
+      "after": 5,
+      "verdict": "The image demonstrates strong technical execution in terms of lighting, focus, and product arrangement against the specified gradient background. The use of blue elements aligns with the brand palette. However, the presence of prominent brand text and logos on the kit box and the product spoiler is a critical deviation from the brief's explicit requirement of \"NO text, NO logos, NO brand names,\" making it unsuitable. Additionally, the camera angle is more of a pure top-down rather than the requested top-down 3/4 angle."
+    },
+    {
+      "id": "blog-academy-graduation",
+      "before": 6,
+      "after": 3,
+      "verdict": "The image successfully captures the spirit of a motorsport academy celebration and includes many elements of the brief, such as the setting, coach description, and the presence of trophies and a podium. However, it critically fails on several key brand and brief requirements, making it unsuitable as-is."
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "brand": {
+    "name": "RC Track UAE",
+    "tagline": "Race. Refine. Repeat.",
+    "shortDescription": "The UAE's home for RC car racing, open practice, and motorsport-themed events."
+  },
+  "common": {
+    "bookNow": "Book Your Trial",
+    "bookTrial": "Book Your Trial Session",
+    "learnMore": "Learn more",
+    "getStarted": "Get started",
+    "viewAll": "View all",
+    "loading": "Loading",
+    "comingSoon": "Coming soon",
+    "openInNewTab": "Opens in a new tab",
+    "language": "Language",
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English",
+    "skipToContent": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "search": "Search",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "loadMore": "Load more",
+    "from": "From",
+    "perPerson": "per person",
+    "perHour": "per hour",
+    "perSession": "per session"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "tracks": "Tracks",
+    "experiences": "Experiences",
+    "memberships": "Memberships",
+    "academy": "Academy",
+    "events": "Events",
+    "shop": "Shop",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "tracksCity": "City Track",
+    "tracksVillage": "Village Track",
+    "expTrial": "Trial Session",
+    "expOpenPractice": "Open Practice",
+    "expBirthday": "Birthday Parties",
+    "expCorporate": "Corporate Events",
+    "expSchools": "Schools and Camps",
+    "expTourist": "For Visitors",
+    "press": "Press",
+    "careers": "Careers",
+    "members": "Members"
+  },
+  "header": {
+    "ctaPrimary": "Book a Trial",
+    "ctaSecondary": "Open Practice"
+  },
+  "footer": {
+    "headingExplore": "Explore",
+    "headingExperiences": "Experiences",
+    "headingSupport": "Support",
+    "headingLegal": "Legal",
+    "headingConnect": "Connect with us",
+    "newsletterTitle": "Get pit lane updates",
+    "newsletterBody": "Race nights, new arrivals, member-only deals. One email a month, never more.",
+    "newsletterPlaceholder": "you@example.com",
+    "newsletterSubmit": "Subscribe",
+    "newsletterSuccess": "You are on the list. See you at the track.",
+    "newsletterError": "Something went wrong. Try again or message us on WhatsApp.",
+    "addressLine1": "City Track, Sheikh Zayed Road",
+    "addressLine2": "Dubai, United Arab Emirates",
+    "rights": "All rights reserved.",
+    "tagline": "Built for racers, drivers, and curious first-timers."
+  },
+  "home": {
+    "metaTitle": "RC Track UAE: Real Racing for Toy-Sized Cars",
+    "metaDescription": "Race RC cars on a purpose-built track in the UAE. Trial sessions, memberships, birthday parties, academy classes, and a hobby shop.",
+    "heroEyebrow": "The UAE's first dedicated RC racing venue",
+    "heroHeadline": "Real racing. Smaller scale. Bigger thrill.",
+    "heroBody": "Hands-on RC car racing on a purpose-built track for ages 7 and up. Walk in, suit up, race in 15 minutes.",
+    "heroCtaPrimary": "Book Your Trial Session",
+    "heroCtaSecondary": "Watch the 60-second tour",
+    "trustHeading": "Trusted by clubs, schools, and families across the UAE",
+    "stats": {
+      "title": "Numbers that move",
+      "lapsRunMonthly": "Laps run per month",
+      "trackLength": "Metres of competitive track",
+      "memberFamilies": "Active member families",
+      "ageFrom": "Youngest racer (years)"
+    },
+    "experiencesHeading": "Pick your line",
+    "experiencesBody": "Whether it is a 30-minute trial or a school holiday camp, we have the package for it.",
+    "howItWorksHeading": "From walk-in to winners' podium in three steps",
+    "howItWorksSteps": {
+      "step1Title": "1. Book online",
+      "step1Body": "Pick a slot, pay a small deposit, and arrive 10 minutes early. Walk-ins welcome when slots are open.",
+      "step2Title": "2. Brief and gear up",
+      "step2Body": "Marshals run a 5-minute safety briefing. We provide the car, controller, and helmet.",
+      "step3Title": "3. Race for 30 minutes",
+      "step3Body": "Hot laps, mini-grands-prix, or coached drills. We tune cars between heats so you can focus on driving."
+    },
+    "testimonialsHeading": "What our racers say",
+    "faqTeaserHeading": "Questions, answered",
+    "faqTeaserCta": "See the full FAQ",
+    "newsletterHeading": "Get the inside line",
+    "newsletterBody": "One email a month with race night invites, new SKUs in the shop, and member-only perks.",
+    "ctaBannerHeading": "Ready to clock your first lap?",
+    "ctaBannerBody": "Trial sessions run every weekend. Pick a slot now."
+  },
+  "experiences": {
+    "metaTitle": "Experiences: Trial Sessions, Open Practice, Birthdays, Corporate, Schools",
+    "metaDescription": "Everything you can book at RC Track UAE: trial sessions, weekly open practice, birthday parties, corporate team building, and school programmes.",
+    "title": "Pick your experience",
+    "intro": "From a one-time trial to a fully catered birthday or a half-day corporate offsite, we have a package designed for it.",
+    "trial": {
+      "title": "Trial Session",
+      "body": "30 minutes on track. Car, controller, and safety gear included. No prior experience needed."
+    },
+    "openPractice": {
+      "title": "Open Practice",
+      "body": "Bring your own car or rent ours. The track is yours for the hour."
+    },
+    "birthday": {
+      "title": "Birthday Parties",
+      "body": "Bronze, Silver, and Gold packages. Cake, podium, party room, and exclusive track time."
+    },
+    "corporate": {
+      "title": "Corporate Events",
+      "body": "Team building, client offsites, conference breakouts. Up to 60 racers, full catering, branded podium."
+    },
+    "schools": {
+      "title": "Schools and Camps",
+      "body": "STEM-aligned racing programmes, school holiday camps, and after-school clubs."
+    },
+    "tourist": {
+      "title": "Visitors and Tourists",
+      "body": "A 60-minute experience for visitors looking for a uniquely-Dubai memory."
+    }
+  },
+  "trial": {
+    "metaTitle": "Trial Session: Try RC Racing in 30 Minutes",
+    "metaDescription": "Walk in, suit up, race. AED 99 introductory trial includes car, helmet, controller, and 30 minutes of guided track time.",
+    "heroEyebrow": "First time at the track",
+    "heroHeadline": "Your first 30 minutes on track",
+    "heroBody": "We provide everything. You provide the smiles.",
+    "includedHeading": "What is included",
+    "includedItems": {
+      "car": "Race-prepared RC car",
+      "controller": "2.4 GHz controller",
+      "helmet": "Helmet and safety briefing",
+      "trackTime": "30 minutes guided track time",
+      "marshal": "Dedicated marshal on every heat",
+      "photo": "Free finish-line photo"
+    },
+    "pricingHeading": "Trial pricing",
+    "introPrice": "AED 99",
+    "introPriceLabel": "Introductory rate (weekdays before 6 PM)",
+    "standardPrice": "AED 195",
+    "standardPriceLabel": "Standard rate (evenings and weekends)",
+    "safetyHeading": "Safety first, fun always",
+    "safetyBody": "Every session starts with a five-minute briefing. Marshals stay on track. Helmets are mandatory for under-12s on the technical layout.",
+    "faqHeading": "Trial FAQs",
+    "ctaSticky": "Book Trial"
+  },
+  "openPractice": {
+    "metaTitle": "Open Practice: 75 AED per Hour on the City Track",
+    "metaDescription": "Open practice for licensed RC racers. Bring your own car or rent ours. Per-hour pricing.",
+    "heroEyebrow": "Members and visitors welcome",
+    "heroHeadline": "The track is yours by the hour",
+    "heroBody": "Bring your build, rent ours, or join a class race. Members get priority bookings.",
+    "pricing": "AED 75 per hour, AED 200 for a four-hour pass."
+  },
+  "birthday": {
+    "metaTitle": "Birthday Parties at the RC Track",
+    "metaDescription": "Bronze, Silver, and Gold birthday packages on a purpose-built racing track. Cake, marshals, podium, and zero clean-up.",
+    "heroEyebrow": "Birthdays at the track",
+    "heroHeadline": "The birthday they will not stop talking about",
+    "heroBody": "Three packages, fully managed. Up to 18 racers, party room, podium, and the cake on cue.",
+    "packagesHeading": "Pick a package",
+    "bronze": {
+      "title": "Bronze",
+      "price": "AED 2,800",
+      "duration": "90 minutes",
+      "guests": "Up to 8 racers",
+      "items": [
+        "8 RC cars and controllers",
+        "Party room for 90 minutes",
+        "Two trained marshals",
+        "Podium and finish-line photo"
+      ]
+    },
+    "silver": {
+      "title": "Silver",
+      "price": "AED 4,200",
+      "duration": "120 minutes",
+      "guests": "Up to 12 racers",
+      "items": [
+        "12 RC cars and controllers",
+        "Party room and catering coordination",
+        "Two trained marshals",
+        "Podium, photo wall, and trophies",
+        "Branded race-numbers"
+      ]
+    },
+    "gold": {
+      "title": "Gold",
+      "price": "AED 6,500",
+      "duration": "120 minutes",
+      "guests": "Up to 18 racers",
+      "items": [
+        "18 RC cars, helmets, and controllers",
+        "Private VIP lounge",
+        "Three marshals and a race commentator",
+        "Cake setup, podium ceremony, and full reel of photos",
+        "Custom race livery",
+        "Goody bags for every guest"
+      ]
+    },
+    "addonsHeading": "Optional add-ons",
+    "addons": [
+      "Catering: AED 65 per head",
+      "Custom race-livery: AED 350",
+      "Drone capture reel: AED 500",
+      "Trophy upgrade: AED 250"
+    ]
+  },
+  "corporate": {
+    "metaTitle": "Corporate Events and Team Building",
+    "metaDescription": "Adrenaline-fuelled team building for groups of 8 to 60. Full catering, branded podium, executive lounge.",
+    "heroEyebrow": "Team building, your way",
+    "heroHeadline": "Team building with shoulders on the wheel",
+    "heroBody": "From a 90-minute lunchtime grand prix to a full-day offsite, our corporate packages keep teams together and engaged.",
+    "tiersHeading": "Corporate tiers",
+    "starter": {
+      "title": "Starter Grid",
+      "price": "From AED 6,000",
+      "items": ["Up to 16 racers", "90 minutes track time", "Catering coordination", "Photographer"]
+    },
+    "pro": {
+      "title": "Pro Pit Crew",
+      "price": "From AED 14,000",
+      "items": [
+        "Up to 32 racers",
+        "3 hours track time",
+        "Branded race numbers",
+        "Drone capture reel",
+        "Executive lounge access"
+      ]
+    },
+    "executive": {
+      "title": "Executive Paddock",
+      "price": "From AED 28,000",
+      "items": [
+        "Up to 60 racers",
+        "Full-day takeover",
+        "On-track branding",
+        "Full media kit (stills + reel)",
+        "Catered breakfast, lunch, and break"
+      ]
+    },
+    "ctaQuote": "Request a custom quote"
+  },
+  "schools": {
+    "metaTitle": "Schools and Holiday Camps",
+    "metaDescription": "STEM-aligned racing programmes, after-school clubs, and full-week holiday camps. Curriculum-mapped, marshal-supervised.",
+    "heroEyebrow": "Schools and camps",
+    "heroHeadline": "Where physics meets the chequered flag",
+    "heroBody": "Curriculum-mapped programmes for years 3 to 12. After-school clubs, week-long holiday camps, and bespoke STEAM field trips.",
+    "ctaQuote": "Request a school quote"
+  },
+  "academy": {
+    "metaTitle": "Race Academy: Beginner to Advanced",
+    "metaDescription": "Six-week academy terms for kids and adults. Beginner, Intermediate, and Advanced cohorts. Coached by ex-club champions.",
+    "heroEyebrow": "Coach-led race academy",
+    "heroHeadline": "From first lap to podium finish",
+    "heroBody": "Six-week academy terms across three skill levels. Race craft, setup, line theory, and tactics.",
+    "tiersHeading": "Pick your level",
+    "beginner": {
+      "title": "Beginner",
+      "price": "AED 1,800 per term",
+      "items": [
+        "6 weekly sessions",
+        "Car and gear included",
+        "Race craft fundamentals",
+        "Graduation race night"
+      ]
+    },
+    "intermediate": {
+      "title": "Intermediate",
+      "price": "AED 1,800 per term",
+      "items": [
+        "Setup and tuning workshops",
+        "Race line theory",
+        "Heats vs sprint formats",
+        "Mid-term mini-grand-prix"
+      ]
+    },
+    "advanced": {
+      "title": "Advanced",
+      "price": "AED 1,800 per term",
+      "items": [
+        "Tactical race-craft",
+        "Data review of laps",
+        "Telemetry tuning",
+        "Season-end championship"
+      ]
+    }
+  },
+  "tourist": {
+    "metaTitle": "For Visitors and Tourists in the UAE",
+    "metaDescription": "60-minute RC racing experience tailored to visitors. Photo reel, certificate, and a podium photo to take home.",
+    "heroEyebrow": "Visiting the UAE",
+    "heroHeadline": "A uniquely-Dubai racing memory",
+    "heroBody": "60 minutes on track, photo reel, certificate, and a podium photo to take home. Free hotel pickup on bookings over AED 600."
+  },
+  "tracks": {
+    "metaTitle": "Our Tracks",
+    "metaDescription": "Two purpose-built RC racing tracks in the UAE. The technical City layout and the high-speed Village layout.",
+    "title": "Two tracks. One pit lane.",
+    "intro": "Our City layout favours technical drivers. The Village layout is a flat-out speed test.",
+    "city": {
+      "title": "City Track",
+      "tagline": "Technical. Twisty. Reward for precision.",
+      "length": "180 metres",
+      "layout": "Tight infield with two hairpins and an off-camber sweeper.",
+      "best": "Best for: 1:10 touring, on-road class.",
+      "lapRecord": "Class lap record: 12.34s (touring)"
+    },
+    "village": {
+      "title": "Village Track",
+      "tagline": "Long straights. Big jumps. Throttle pinned.",
+      "length": "240 metres",
+      "layout": "Two long straights, a triple-jump, and a wide carousel.",
+      "best": "Best for: 1:8 buggy, off-road class.",
+      "lapRecord": "Class lap record: 18.12s (buggy)"
+    }
+  },
+  "memberships": {
+    "metaTitle": "Memberships: Bronze, Silver, Gold",
+    "metaDescription": "Annual memberships for the RC Track UAE. Priority bookings, discounts in the shop, and members-only race nights.",
+    "title": "Memberships",
+    "intro": "Race more. Pay less. Three tiers, billed annually, cancel any time.",
+    "tiers": {
+      "bronzeTitle": "Bronze",
+      "bronzePrice": "AED 850",
+      "bronzeFrequency": "per year",
+      "bronzeFeatures": [
+        "10 free open-practice hours",
+        "10 percent off in the shop",
+        "Members-only race night invites",
+        "Priority weekend bookings"
+      ],
+      "silverTitle": "Silver",
+      "silverPrice": "AED 1,800",
+      "silverFrequency": "per year",
+      "silverFeatures": [
+        "24 free open-practice hours",
+        "15 percent off in the shop",
+        "Bring a guest twice a year",
+        "Priority slot reservation",
+        "Free academy term-1 (Beginner)"
+      ],
+      "goldTitle": "Gold",
+      "goldPrice": "AED 3,500",
+      "goldFrequency": "per year",
+      "goldFeatures": [
+        "Unlimited open practice",
+        "20 percent off in the shop",
+        "Bring two guests every month",
+        "All academy terms included",
+        "Personal pit-box at the venue",
+        "VIP lounge access"
+      ],
+      "joinBronze": "Join Bronze",
+      "joinSilver": "Join Silver",
+      "joinGold": "Join Gold",
+      "mostPopular": "Most popular"
+    },
+    "comparisonHeading": "Compare tiers side-by-side",
+    "comparison": {
+      "feature": "Feature",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "openPractice": "Free open practice",
+      "shopDiscount": "Shop discount",
+      "guestPasses": "Guest passes",
+      "academy": "Academy included",
+      "vipLounge": "VIP lounge",
+      "personalPitBox": "Personal pit-box"
+    },
+    "joinTitle": "Join {tier}",
+    "joinIntro": "A 60-second sign-up. After you submit, you will be redirected to Stripe to complete the annual payment.",
+    "joinSuccess": "Welcome aboard. Check your inbox for next steps."
+  },
+  "shop": {
+    "metaTitle": "Hobby Shop: Cars, Parts, Tyres, and Tools",
+    "metaDescription": "1:10 and 1:8 RC cars, batteries, motors, ESCs, tyres, and pit tools. Tabby and Tamara accepted.",
+    "title": "Hobby shop",
+    "intro": "Race-prepared cars, spares, and the tools to keep them on the limit.",
+    "categoriesHeading": "Categories",
+    "categories": {
+      "cars": "Cars and kits",
+      "electronics": "Motors and electronics",
+      "tyres": "Tyres and wheels",
+      "tools": "Tools and pit gear",
+      "apparel": "Apparel and merch"
+    },
+    "featuredHeading": "Featured products",
+    "newArrivalsHeading": "New arrivals",
+    "filtersHeading": "Filters",
+    "filters": {
+      "scale": "Scale",
+      "brand": "Brand",
+      "price": "Price",
+      "clearAll": "Clear filters"
+    },
+    "outOfStock": "Out of stock",
+    "addToWishlist": "Add to wishlist",
+    "removeFromWishlist": "Remove from wishlist",
+    "wishlistAdded": "Added to wishlist",
+    "wishlistRemoved": "Removed from wishlist",
+    "buyNow": "Buy Now",
+    "recentlyViewedHeading": "Recently viewed",
+    "tabbyNote": "Pay in 4 with Tabby. Interest free.",
+    "tamaraNote": "Split into 3 with Tamara. Sharia-compliant."
+  },
+  "wishlist": {
+    "metaTitle": "Your Wishlist",
+    "metaDescription": "Save products to your wishlist. Stored locally on your device.",
+    "title": "Your wishlist",
+    "empty": "Your wishlist is empty.",
+    "emptyCta": "Find something you love"
+  },
+  "events": {
+    "metaTitle": "Events and Race Nights",
+    "metaDescription": "Open race nights, member championships, manufacturer demo days, and one-off festivals.",
+    "title": "Events at the track",
+    "intro": "Open race nights, member championships, manufacturer demo days, and the odd one-off festival.",
+    "filterAll": "All",
+    "filterRaceNight": "Race nights",
+    "filterChampionship": "Championships",
+    "filterDemo": "Demo days",
+    "addToCalendar": "Add to calendar",
+    "shareEvent": "Share event"
+  },
+  "blog": {
+    "metaTitle": "Pit Lane Stories: News, Tips, and Race Reports",
+    "metaDescription": "RC racing tutorials, race reports, member profiles, and gear reviews from the UAE's home of RC.",
+    "title": "Pit lane stories",
+    "intro": "Tutorials, race reports, member profiles, and gear reviews.",
+    "readMore": "Read article",
+    "minutesRead": "{count} min read"
+  },
+  "gallery": {
+    "metaTitle": "Gallery",
+    "metaDescription": "Photos and reels from race nights, birthday parties, corporate days, and academy graduations.",
+    "title": "Gallery",
+    "intro": "Photos and reels from race nights, birthdays, corporate days, and academy graduations.",
+    "loadMore": "Load more"
+  },
+  "faq": {
+    "metaTitle": "Frequently Asked Questions",
+    "metaDescription": "Answers to common questions about booking, pricing, age requirements, parking, and accessibility.",
+    "title": "Frequently asked questions",
+    "intro": "Cannot find what you need? Message us on WhatsApp.",
+    "categories": {
+      "booking": "Booking and pricing",
+      "ageSafety": "Age and safety",
+      "venue": "Venue and accessibility",
+      "memberships": "Memberships",
+      "shop": "Shop and shipping"
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact RC Track UAE",
+    "metaDescription": "Talk to us by WhatsApp, email, or our quote form. We reply within four hours during venue hours.",
+    "title": "Talk to us",
+    "intro": "WhatsApp is fastest. Forms also work. We reply within four hours during venue hours.",
+    "channelsHeading": "Choose a channel",
+    "whatsappLabel": "WhatsApp",
+    "whatsappBody": "Fastest path to a marshal. Tap to open chat.",
+    "emailLabel": "Email",
+    "emailBody": "hello@rctrack.ae",
+    "phoneLabel": "Phone",
+    "phoneBody": "Call us during venue hours (10 AM to 11 PM).",
+    "formHeading": "Or send a message"
+  },
+  "press": {
+    "metaTitle": "Press and Media",
+    "metaDescription": "Press releases, brand kit, photography, and interview requests.",
+    "title": "Press and media",
+    "intro": "Releases, brand kit, photography, and interview requests."
+  },
+  "careers": {
+    "metaTitle": "Careers at RC Track UAE",
+    "metaDescription": "Marshals, instructors, mechanics, and event managers. Open roles updated weekly.",
+    "title": "Build the track with us",
+    "intro": "Marshals, instructors, mechanics, and event managers."
+  },
+  "members": {
+    "metaTitle": "Members Area",
+    "metaDescription": "Member-only features are launching soon. Sign up to be notified.",
+    "title": "Members area coming soon",
+    "body": "Lap-time leaderboards, member-only race nights, and a track-side messaging board are on the build. Drop your email and we will tell you the day it goes live.",
+    "notifyTitle": "Notify me when it launches"
+  },
+  "about": {
+    "metaTitle": "About RC Track UAE",
+    "metaDescription": "Built by RC racers for RC racers. Our story, our values, and the team behind the track.",
+    "title": "Built by racers, for racers",
+    "intro": "Our founder grew up bashing 1:10 buggies in Sharjah back when finding a parts shop meant a trip to Bangkok. We built RC Track UAE so the next generation does not have to wait.",
+    "valuesHeading": "What we stand for",
+    "values": {
+      "safetyTitle": "Safety, always",
+      "safetyBody": "Marshals on every heat, certified gear, and a five-minute briefing before every session.",
+      "communityTitle": "Community first",
+      "communityBody": "Member nights, school clubs, and a welcoming pit lane. Beginners are heroes here.",
+      "performanceTitle": "Real racing standards",
+      "performanceBody": "Race-grade timing, transponder loops, and a championship calendar that runs all year."
+    },
+    "teamHeading": "The team behind the track"
+  },
+  "booking": {
+    "metaTitle": "Book Your Trial Session",
+    "metaDescription": "Pick a slot, pay a small deposit, and turn up. Walk-ins welcome when slots are open.",
+    "title": "Book your slot",
+    "intro": "Pick a service, pick a time, pay a small deposit. Pay the balance at the venue."
+  },
+  "confirmed": {
+    "metaTitle": "Booking Confirmed",
+    "title": "You are on the grid",
+    "body": "We sent the details to your email and WhatsApp. Arrive ten minutes early for the safety briefing. Pit lane is on the left as you walk in.",
+    "ctaWhatsapp": "Message us on WhatsApp",
+    "ctaHome": "Back to home"
+  },
+  "orders": {
+    "metaTitle": "Track Your Order",
+    "title": "Track your order",
+    "body": "We send tracking links by email and SMS as soon as your order ships. If you cannot find yours, message us on WhatsApp and quote your order number.",
+    "ctaWhatsapp": "Find my order"
+  },
+  "cookies": {
+    "title": "Cookie preferences",
+    "body": "We respect the UAE PDPL. Choose which cookies you allow. You can change this any time from the footer.",
+    "necessaryTitle": "Strictly necessary",
+    "necessaryBody": "Required for the site to function. Always on.",
+    "analyticsTitle": "Analytics",
+    "analyticsBody": "Helps us understand which pages convert and which need work.",
+    "marketingTitle": "Marketing",
+    "marketingBody": "Lets us measure ad performance and re-engage interested visitors.",
+    "personalisationTitle": "Personalisation",
+    "personalisationBody": "Remembers your preferences for a smoother visit.",
+    "acceptAll": "Accept all",
+    "rejectAll": "Reject all",
+    "savePreferences": "Save my preferences",
+    "manage": "Manage preferences"
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy",
+    "title": "Privacy policy",
+    "lastUpdated": "Last updated"
+  },
+  "terms": {
+    "metaTitle": "Terms of Service",
+    "title": "Terms of service",
+    "lastUpdated": "Last updated"
+  },
+  "whatsapp": {
+    "floatingLabel": "Chat with us",
+    "tooltip": "We reply within four hours during venue hours",
+    "messageDefault": "Hi RC Track UAE, I would like to know more about your services.",
+    "messageBookTrial": "Hi RC Track UAE, I would like to book a trial session.",
+    "messageBirthday": "Hi RC Track UAE, I would like a quote for a birthday party.",
+    "messageCorporate": "Hi RC Track UAE, I am organising a corporate event.",
+    "messageSchool": "Hi RC Track UAE, I am from a school and would like a programme quote.",
+    "messageProduct": "Hi RC Track UAE, I have a question about this product: {productName}.",
+    "messageMember": "Hi RC Track UAE, I am a {tier} member and need help with my booking."
+  },
+  "forms": {
+    "fields": {
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone number (UAE format)",
+      "message": "Your message",
+      "tier": "Membership tier",
+      "school": "School name",
+      "company": "Company name",
+      "guests": "Number of guests",
+      "date": "Preferred date",
+      "consent": "I agree to be contacted about my booking",
+      "marketingConsent": "Send me race-night invites and member-only offers"
+    },
+    "placeholders": {
+      "phone": "+971 50 123 4567",
+      "message": "How can we help?"
+    },
+    "errors": {
+      "required": "This field is required",
+      "name": "Please enter your full name.",
+      "email": "That email looks off.",
+      "phone": "Use UAE format like +971501234567.",
+      "consent": "We can only proceed with your consent."
+    },
+    "submitting": "Sending",
+    "submitSuccess": "Thanks. We will be in touch.",
+    "submitError": "Something went wrong. Try WhatsApp or email."
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The link you followed has retired. Find what you need from our home page.",
+    "notFoundCta": "Back to home",
+    "globalTitle": "Something went wrong",
+    "globalBody": "An unexpected error occurred. Our team has been notified.",
+    "globalCta": "Reload the page"
+  }
+}
