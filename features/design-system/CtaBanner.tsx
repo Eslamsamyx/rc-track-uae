@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 import { DecorOrb } from "./decor/DecorOrb";
 import { CurbStrip } from "./decor/CurbStrip";
 
@@ -37,7 +38,7 @@ export function CtaBanner({
             <>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={imageUrl}
+                src={asset(imageUrl)}
                 alt=""
                 aria-hidden
                 className="absolute inset-0 -z-10 h-full w-full object-cover"

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Play } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 import { track } from "@/features/analytics/track";
 
 interface Props {
@@ -49,7 +50,7 @@ export function LiteVimeo({ videoId, posterUrl, background = false, className }:
             track("video_play", { videoId });
           }}
           className="absolute inset-0 z-10 grid place-items-center bg-cover bg-center"
-          style={posterUrl ? { backgroundImage: `url(${posterUrl})` } : undefined}
+          style={posterUrl ? { backgroundImage: `url(${asset(posterUrl)})` } : undefined}
           aria-label="Play video"
         >
           <span className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-[color:var(--color-track-orange)] text-white shadow-[var(--shadow-lg)] hover:bg-[color:var(--color-track-orange-600)]">

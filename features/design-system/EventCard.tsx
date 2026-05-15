@@ -3,6 +3,7 @@ import { Calendar, MapPin } from "lucide-react";
 import { Badge } from "./Badge";
 import type { Locale } from "@/features/i18n/config";
 import { formatDate } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 
 export interface EventEntry {
   slug: string;
@@ -28,7 +29,7 @@ export function EventCard({ event, locale }: { event: EventEntry; locale: Locale
         {event.imageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={event.imageUrl}
+            src={asset(event.imageUrl)}
             alt=""
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />

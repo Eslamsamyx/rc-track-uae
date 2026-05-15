@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 import { LiteVimeo } from "@/features/booking/components/LiteVimeo";
 import { DecorOrb } from "./decor/DecorOrb";
 import { CurbStrip } from "./decor/CurbStrip";
@@ -85,7 +86,7 @@ export function Hero({
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             ref={imgRef}
-            src={imageUrl}
+            src={asset(imageUrl)}
             alt=""
             aria-hidden
             className="h-full w-full object-cover will-change-transform"

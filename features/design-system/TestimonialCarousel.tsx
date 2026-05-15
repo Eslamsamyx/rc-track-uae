@@ -5,6 +5,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { Quote, ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 
 export interface Testimonial {
   id: string;
@@ -98,7 +99,7 @@ export function TestimonialCarousel({ items, className, variant = "light" }: Pro
                   {t.avatarUrl ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
-                      src={t.avatarUrl}
+                      src={asset(t.avatarUrl)}
                       alt=""
                       aria-hidden
                       className="h-11 w-11 rounded-full object-cover ring-2 ring-[color:var(--color-track-orange)]"

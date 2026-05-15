@@ -12,6 +12,7 @@ import {
 } from "@/features/design-system";
 import { BookingTrigger } from "@/features/booking/components/BookingTrigger";
 import { isLocale, type Locale } from "@/features/i18n/config";
+import { asset } from "@/lib/asset";
 import { ArrowRight, MapPin, Timer, Ruler, Trophy } from "lucide-react";
 
 interface Props {
@@ -87,7 +88,7 @@ export default async function TracksPage({ params }: Props) {
                   <div className="relative aspect-[16/9] overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={tr.image}
+                      src={asset(tr.image)}
                       alt=""
                       aria-hidden
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"

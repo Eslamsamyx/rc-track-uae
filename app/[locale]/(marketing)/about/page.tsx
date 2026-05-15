@@ -13,6 +13,7 @@ import {
 import { BookingTrigger } from "@/features/booking/components/BookingTrigger";
 import { Shield, Users, Trophy, Sparkles, Flag, Gauge } from "lucide-react";
 import { isLocale, type Locale } from "@/features/i18n/config";
+import { asset } from "@/lib/asset";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -145,7 +146,7 @@ export default async function AboutPage({ params }: Props) {
                   <div className="relative aspect-square overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={person.image}
+                      src={asset(person.image)}
                       alt=""
                       aria-hidden
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"

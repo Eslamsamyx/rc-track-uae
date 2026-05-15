@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Clock } from "lucide-react";
 import type { Locale } from "@/features/i18n/config";
 import { formatDate } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 
 export interface BlogPostSummary {
   slug: string;
@@ -20,7 +21,7 @@ export function BlogCard({ post, locale }: { post: BlogPostSummary; locale: Loca
       <div className="relative aspect-[16/10] overflow-hidden bg-[color:var(--color-mist)]">
         {post.imageUrl ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={post.imageUrl} alt="" className="h-full w-full object-cover" />
+          <img src={asset(post.imageUrl)} alt="" className="h-full w-full object-cover" />
         ) : (
           <div className="h-full w-full checkered-bg opacity-40" />
         )}

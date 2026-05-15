@@ -20,6 +20,7 @@ import {
 import { NewsletterEmbed } from "@/features/newsletter/components/NewsletterEmbed";
 import { BookingTrigger } from "@/features/booking/components/BookingTrigger";
 import { isLocale, type Locale } from "@/features/i18n/config";
+import { asset } from "@/lib/asset";
 import {
   homepageStats,
   homepageTestimonials,
@@ -274,7 +275,7 @@ export default async function HomePage({ params }: Props) {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/generated/sections/circuit-aerial.png"
+          src={asset("/generated/sections/circuit-aerial.png")}
           alt=""
           aria-hidden
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-25 mix-blend-screen"
@@ -328,7 +329,7 @@ export default async function HomePage({ params }: Props) {
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={src}
+                    src={asset(src)}
                     alt=""
                     aria-hidden
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -355,7 +356,7 @@ export default async function HomePage({ params }: Props) {
       <section className="relative isolate overflow-hidden bg-racing-gradient text-white section-y">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/generated/sections/confetti.png"
+          src={asset("/generated/sections/confetti.png")}
           alt=""
           aria-hidden
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20"
@@ -387,7 +388,7 @@ export default async function HomePage({ params }: Props) {
               <div className="group relative isolate flex h-full flex-col justify-between overflow-hidden rounded-[var(--radius-lg)] bg-white p-8 shadow-[var(--shadow-md)] ring-1 ring-[color:var(--color-border)]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/generated/hero/memberships.png"
+                  src={asset("/generated/hero/memberships.png")}
                   alt=""
                   aria-hidden
                   className="absolute inset-0 -z-10 h-full w-full object-cover opacity-25"
@@ -446,7 +447,7 @@ export default async function HomePage({ params }: Props) {
               <div className="relative isolate flex h-full flex-col justify-between overflow-hidden rounded-[var(--radius-lg)] bg-racing-gradient p-8 text-white shadow-[var(--shadow-md)]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/generated/sections/night-lights.png"
+                  src={asset("/generated/sections/night-lights.png")}
                   alt=""
                   aria-hidden
                   className="absolute inset-0 -z-10 h-full w-full object-cover opacity-25"

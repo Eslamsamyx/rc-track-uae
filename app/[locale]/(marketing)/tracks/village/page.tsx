@@ -12,6 +12,7 @@ import {
 } from "@/features/design-system";
 import { BookingTrigger } from "@/features/booking/components/BookingTrigger";
 import { isLocale, type Locale } from "@/features/i18n/config";
+import { asset } from "@/lib/asset";
 import { Ruler, Trophy, Timer, MapPin } from "lucide-react";
 
 interface Props {
@@ -73,7 +74,7 @@ export default async function VillageTrackPage({ params }: Props) {
               <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-lg)] shadow-[var(--shadow-md)] ring-1 ring-[color:var(--color-border)]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/generated/gallery/corner-1.png"
+                  src={asset("/generated/gallery/corner-1.png")}
                   alt={t("tracks.village.title")}
                   className="h-full w-full object-cover"
                 />

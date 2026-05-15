@@ -12,6 +12,7 @@ import {
 import { BookingTrigger } from "@/features/booking/components/BookingTrigger";
 import { getEvents } from "@/features/content/events-data";
 import { isLocale, type Locale } from "@/features/i18n/config";
+import { asset } from "@/lib/asset";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -64,7 +65,7 @@ export default async function EventsPage({ params }: Props) {
                 <div className="relative aspect-[16/10] md:aspect-auto">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={featured.imageUrl}
+                    src={asset(featured.imageUrl)}
                     alt=""
                     aria-hidden
                     className="absolute inset-0 h-full w-full object-cover"

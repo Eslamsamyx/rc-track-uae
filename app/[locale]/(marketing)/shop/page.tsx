@@ -14,6 +14,7 @@ import {
 import { BookingTrigger } from "@/features/booking/components/BookingTrigger";
 import { SAMPLE_CATALOGUE, SHOP_CATEGORIES } from "@/features/shop/data/catalogue";
 import { isLocale, type Locale } from "@/features/i18n/config";
+import { asset } from "@/lib/asset";
 import { Package, Sparkles, Truck, ShieldCheck, ArrowRight } from "lucide-react";
 
 interface Props {
@@ -88,7 +89,7 @@ export default async function ShopPage({ params }: Props) {
                     <>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src={CATEGORY_IMAGES[cat.id]}
+                        src={asset(CATEGORY_IMAGES[cat.id])}
                         alt=""
                         aria-hidden
                         className="absolute inset-0 h-full w-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-110"

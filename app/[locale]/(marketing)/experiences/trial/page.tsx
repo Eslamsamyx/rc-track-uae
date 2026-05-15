@@ -17,6 +17,7 @@ import {
 import { BookingTrigger } from "@/features/booking/components/BookingTrigger";
 import { StickyMobileCta } from "@/features/layout/StickyMobileCta";
 import { isLocale, type Locale } from "@/features/i18n/config";
+import { asset } from "@/lib/asset";
 import { homepageTestimonials, topFaq } from "@/features/content/homepage-data";
 import {
   Car,
@@ -204,7 +205,7 @@ export default async function TrialPage({ params }: Props) {
       <section className="relative isolate overflow-hidden bg-racing-gradient text-white section-y">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/generated/sections/confetti.png"
+          src={asset("/generated/sections/confetti.png")}
           alt=""
           aria-hidden
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20"

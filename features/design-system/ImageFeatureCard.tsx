@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 
 interface Props {
   imageUrl: string;
@@ -60,7 +61,7 @@ export function ImageFeatureCard({
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={imageUrl}
+        src={asset(imageUrl)}
         alt=""
         aria-hidden
         className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"

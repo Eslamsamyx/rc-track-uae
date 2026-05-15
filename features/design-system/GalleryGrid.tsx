@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
+import { asset } from "@/lib/asset";
 
 export interface GalleryImage {
   id: string;
@@ -49,7 +50,7 @@ export function GalleryGrid({ images, className }: { images: GalleryImage[]; cla
         <a
           key={img.id}
           className="gallery-link group relative block aspect-square overflow-hidden rounded-[var(--radius-md)] bg-[color:var(--color-mist)]"
-          href={img.srcLarge ?? img.src}
+          href={asset(img.srcLarge ?? img.src)}
           data-pswp-width={img.width}
           data-pswp-height={img.height}
           target="_blank"
@@ -57,7 +58,7 @@ export function GalleryGrid({ images, className }: { images: GalleryImage[]; cla
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={img.src}
+            src={asset(img.src)}
             alt={img.alt}
             loading="lazy"
             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
